@@ -1,25 +1,26 @@
 # The main config file for your Jekyll template
 
 # Site settings
-title: Jackal               # used for the html title of every page
+title: Rishi Raj               # used for the html title of every page
 desc: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hello, there! I am Rishi Raj. I'm a Web Developer who has experience
+  in AngularJS, Javascript, Laravel and Wordpress.
 
-url: http://jackal.com      # put your website hosting url here
+
+
+url: http://rishiraj.co      # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
 permalink: /:year/:title/   # how should we display posts url
 
 # Meta settings
-email: jackal@gmail.com
-author: The Jackal
-twitter_username: clenemt
-github_username: clenemt
-github_source: jackal
+email: rishiraj824@gmail.com
+author: Rishi Raj
+twitter_username: rishirajloyola
+github_username: rishiraj824
+github_source: rishiraj.github.io
 
 # Put your ga tracking code below
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-30210543-1'
 
 # Pagination settings
 paginate: 5                           # number of posts to show per page
@@ -31,16 +32,16 @@ paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf
 navigation:
   - title: Articles
     url: /articles/
-    desc: Stuffs I write about
+    desc: What I'd like to share with you
   - title: Projects
     url: /projects/
-    desc: Stuffs I like to do
-  - title: Work
-    url: /work/
-    desc: Stuffs I hate to do
+    desc: What I love to spend time on
+  # - title: Work
+  #   url: /work/
+  #   desc: lorem ipsum 
   - title: About
     url: /about/
-    desc: Learn about me
+    desc: Know me a little
 
 # Used by Jekyll to recognize what is a post and what is a page
 defaults:

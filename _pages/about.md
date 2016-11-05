@@ -8,7 +8,7 @@ permalink: /about/
 
 <div class="pretty-links">
 
-<div class="lead lead-about">Some intro text that is eye catching and should put you reader at ease and confident in your skills.
+<div class="lead lead-about">Put your skills to work rather than spending time on improving them.
 </div>
 
 {::nomarkdown} 
@@ -16,7 +16,13 @@ permalink: /about/
     <img src="{{ site.baseurl }}/assets/img/profile.png">
 </figure>
 {:/}
+  Hello, there! I am Rishi Raj. I'm a Web Developer who has experience
+  in AngularJS, Javascript, Laravel and Wordpress. I am currently working for 
+  Winuall as the Lead Frontend Developer.
 
+  My open-source contributions include Drupal 8 media module 
+  and loklak_search in FOSSASIA.
+  
 Neve aethere orbe hic *virginis trunco* in spreto diuque latarumque, mea? Ultima
 sulcum antris conlapsosque potiere curvat Phasias superas adpulit vertex est
 Elei est fumificisque, puniceo? Et dulcis me Argo precibus: haec blanditiae
