@@ -43,10 +43,10 @@ I believe being busy is the best way to learn new things, manage time and build 
 ## My Interests and Hobbies
 
 I love watching TV Series and Movies in my part time. The favourite one is too tough to 
-decide as it keeps changing, though I love *Breaking Bad* and *Friends*. Recently, I have started following
-*Westworld* and I love the way Jonathan Nolan has brought the concepts of
+decide as it keeps changing, though I love *Breaking Bad* and *Friends* the most. Recently, I have started following
+*Westworld* and I love the way Jonathan Nolan has brought out the concepts of
 Artificial Intelligence and Human-Computer Interaction to reality. Other than these, I have watched *Daredevils, Suits, Game of Thrones, 
-How I Met Your Mother, Two and a Half Men, Prison Break* and many more which I can't recall as of now.
+How I Met Your Mother, Two and a Half Men, Prison Break* and many more which I would love to talk about.
 
 I like listening to *Electronic Music/Hip-Pop/R&B* and follow the latest
 and top songs from *Spotify*. I am planning to learn a musical
