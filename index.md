@@ -3,9 +3,10 @@ layout: default
 ---
 
 <div class="lead pretty-links">
-  Hi! this is just a sample **intro text**. You would normally put your [full name](about/) here and say something *smart* about yourself.
+  Hi! My name is [**Rishi Raj**](about/). Welcome to my personal blog. This is a place where I write about myself, my personal [projects](projects/) and my
+  professional [work](work/).
 
-  This could also be the good place to say were you are coming from, what you [do for a living](work/) and maybe what you are [interested in](projects/). You might also be [writing](articles/) about stuff.
+  I am a student at *VIT University, Vellore, India* where I am pursuing my *Bachelor's Degree in Computer Science and Engineering.* 
 
-  But after all this is your site and I'm just a **placeholder text** so what would i know about some *home page content*.
+  You can contact me anywhere on the links at the bottom. *Have a Good Day!*
 </div>

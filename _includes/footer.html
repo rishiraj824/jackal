@@ -6,19 +6,21 @@
     <div class="site-contact">
       <ul>
         {% if site.email %}
-        <li><a href="mailto:{{ site.email }}">Contact</a></li>
+        <li ><a href="mailto:{{ site.email }}"><i class="fa fa-2x fa-envelope-o"></i></a></li>
         {% endif %}
 
         {% if site.github_username %}
-        <li><a target="_blank" rel="external" href="https://github.com/{{ site.github_username }}">Github</a></li>
+        <li ><a target="_blank" rel="external" href="https://github.com/{{ site.github_username }}"><i class="fa fa-2x fa-github"></i></a></li>
         {% endif %}
 
         {% if site.twitter_username %}
-        <li><a target="_blank" rel="external" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a></li>
+        <li ><a target="_blank" rel="external" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-2x fa-twitter"></i></a></li>
         {% endif %}
+        <li ><a target="_blank" rel="external" href="https://instagram.com/rishi_raj95"><i class="fa fa-2x fa-instagram"></i></a></li>
+        <li ><a target="_blank" rel="external" href="https://facebook.com/rishirajloyola"><i class="fa fa-2x fa-facebook"></i></a></li>
+        <li ><a target="_blank" rel="external" href="https://www.linkedin.com/in/rajrishime/"><i class="fa fa-2x fa-linkedin"></i></a></li>
       </ul>
     </div>
-
     <div class="site-source">
       <ul>
         <li><a target="_blank" href="https://github.com/{{ site.github_username }}/{{ site.github_source }}">Source</a></li>

@@ -1,7 +1,7 @@
 <header class="site-header">
-
+<div class="inner-header"></div>
   <h1 class="site-title">
-    <a href="{{ site.baseurl }}/" title="Home page"><img class="site-logo" src="{{ site.baseurl }}/assets/img/logo.svg"></a>
+    <a href="{{ site.baseurl }}/" title="Home page"><img class="site-logo" src="{{ site.baseurl }}/assets/img/logo.png"></a>
   </h1>
 
   <nav class="site-nav">
@@ -13,6 +13,19 @@
     <a href="{{ link.url | prepend: site.baseurl }}" {{ current }} {% if link.desc %} title="{{ link.desc }}" {% endif %}>{{ link.title }}</a>
     {% endfor %}
   </nav>
-
+  
 </header>
 <!-- site-header -->
+<style type="text/css">
+  .inner-header {
+    background-image: -webkit-linear-gradient(left,#e65297,#e65297 25%,#46bbff 25%,#46bbff 50%,#f62626 50%,#f62626 75%,#2cdc49 75%);
+    background-image: -moz-linear-gradient(left,#e65297,#e65297 25%,#46bbff 25%,#46bbff 50%,#f62626 50%,#f62626 75%,#2cdc49 75%);
+    background-image: -o-linear-gradient(left,#e65297,#e65297 25%,#46bbff 25%,#46bbff 50%,#f62626 50%,#f62626 75%,#2cdc49 75%);
+    background-image: -ms-linear-gradient(left,#e65297,#e65297 25%,#46bbff 25%,#46bbff 50%,#f62626 50%,#f62626 75%,#2cdc49 75%);
+    background-image: linear-gradient(left,#e65297,#e65297 25%,#46bbff 25%,#46bbff 50%,#f62626 50%,#f62626 75%,#2cdc49 75%);
+    background-size: 100% 6px;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: block;
+}
+</style>

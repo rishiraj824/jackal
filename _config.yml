@@ -36,9 +36,9 @@ navigation:
   - title: Projects
     url: /projects/
     desc: What I love to spend time on
-  # - title: Work
-  #   url: /work/
-  #   desc: lorem ipsum 
+  - title: Work
+    url: /work/
+    desc: My Clients and Startups I Work For
   - title: About
     url: /about/
     desc: Know me a little

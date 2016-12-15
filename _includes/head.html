@@ -1,9 +1,88 @@
 <head>
 
   <!-- Common metas -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
+    #########################################################################
+
+
+    #############        ##    ##########    ##        ##   ##
+    ##          ###      ##    ##            ##        ##   ##
+    ##          ####     ##    ##            ##        ##   ##
+    ##          ###      ##    ##            ##        ##   ##
+    ##          ##       ##    ##            ##        ##   ##
+    ############         ##    ##########    ############   ##
+    ##     ####          ##            ##    ##        ##   ##
+    ##      ###          ##            ##    ##        ##   ##
+    ##       ##          ##            ##    ##        ##   ##
+    ##        #          ##            ##    ##        ##   ##
+    ##         #         ##    ##########    ##        ##   ##
+
+
+    ##########################################################################
+    -->
+
+  <!--Meta Data -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <link rel="alternate" href="http://rishiraj.co" hreflang="en-us" />
+      <meta name="language" content="en-us">
+      <meta http-equiv="content-language" content="en"> 
+      
+      <meta name="distribution" content="Global" />
+      <meta name="robots" content="index, follow" />
+      <meta name="revisit-after" content="1 days"/>
+      <meta name="rating" content="General"> 
+      <meta name="expires" content="Never">
+    
+      <meta name="author" content="Rishi Raj">     
+  <!--SEO Data-->
+  
+      <meta name="description" content="I am a Full Time Web Developer with a good amount of experience in Web Applications, Wordpress and Software Management." />
+      <meta name="keywords" content="rishi raj, rishi raj jamshedpur, rishi raj vit university, rishi raj vit, rishi raj winuall, rishi raj web developer, rishi raj google developer groups, rishi raj gdgvit, rishi raj drupal, rishi raj loyola school" />
+      <meta name="copyright" content="Rishi Raj"/>
+      <meta name="rating" content="General" />
+      <meta name="coverage" content="Worldwide" />
+      <meta name="reply-to" content="rishiraj824@gmail.com" />
+      <meta name="creator" content="Rishi Raj" />
+      <meta itemprop="name" content="Rishi Raj"/>
+      <meta itemprop="image" content="http://rishiraj.co/images/bolly.png"/>
+      <meta itemprop="keywords" content="rishi raj, rishi raj jamshedpur, rishi raj vit university, rishi raj winuall, rishi raj web developer, rishi raj google developer groups, rishi raj gdgvit, rishi raj drupal, rishi raj loyola school"/>
+      
+  <!--OpenGraph-->
+      <meta property="og:title" content="Rishi Raj">
+      <meta property="og:site_name" content="Rishi Raj">
+      <meta name="og:email" content="rishiraj824@gmail.com"/>
+      <meta property="og:url" content="http://rishiraj.co/images/rishiraj.png">
+      <meta property="og:description" content="I am a Full Time Web Developer with a good amount of experience in Web Applications, Wordpress and Software Management.">
+      <meta property="fb:admins" content="0000000" />    
+      
+  <!--Twitter-->
+      <meta name="twitter:domain" content="http://rishiraj.co"/>
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@rishirajloyola">
+      <meta name="twitter:creator" content="@rishirajloyola">
+      <meta name="twitter:title" content="Rishi Raj - Web Developer">
+      <meta name="twitter:description" content="I am a Full Time Web Developer with a good amount of experience in Web Applications, Wordpress and Software Management.">
+      <meta name="twitter:creator" content="@rishirajloyola"/>
+      <meta name="twitter:image" content="http://www.rishiraj.co/images/rishiraj.png">
+  <!-- Favicons-->
+      <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/assets/favicons/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/assets/favicons/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/assets/favicons/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/assets/favicons/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/assets/favicons/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/assets/favicons/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/assets/favicons/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/assets/favicons/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.baseurl }}/assets/favicons/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/assets/favicons/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
+      <link rel="manifest" href="{{ site.baseurl }}/assetsimages/favicons/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="{{ site.baseurl }}/assets/favicons/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
 
   <title>
   {% if page.title %}{{ page.title }} | {{ site.title }}
@@ -11,15 +90,13 @@
   </title>
 
   <!-- SEO metas -->
-  <meta name="description" content="{% if page.desc %}{{ page.desc }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.desc }}{% endif %}">
+  <!-- <meta name="description" content="{% if page.desc %}{{ page.desc }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.desc }}{% endif %}"> -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Lora:400,400i,700" rel="stylesheet">
+  <script src="https://use.fontawesome.com/02c714200c.js"></script>
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/apple-touch-icon.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
 
   <!-- CSS files -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
