@@ -48,15 +48,14 @@ decide as it keeps changing, though I love *Breaking Bad* and *Friends* the most
 Artificial Intelligence and Human-Computer Interaction to reality. Other than these, I have watched *Daredevils, Suits, Game of Thrones, 
 How I Met Your Mother, Two and a Half Men, Prison Break* and many more which I would love to talk about.
 
-I like listening to *Electronic Music/Hip-Pop/R&B* and follow the latest
-and top songs from *Spotify*. I am planning to learn a musical
-instrument soon in the future. Well, my favourite artists include
-*Chainsmokers, Avicii, Hardwell, Dimitri Vegas, Coldplay* and there is an endless list. I have a fondness of Bollywood songs too. Some
-of the amazing artists which I like are *Sonu Nigam, Arijit Singh, Armaan Malik and A.R.Rehman.*
+When it comes to Music, I follow *Electronic/Hip-Pop/R&B/Rap/Rock*. It helps me concentrate and adds fun to coding. Well, my favourite artists include
+*Coldplay, Chainsmokers, Avicii, Hardwell, Dimitri Vegas, Rihanna, Fifth Harmony, Twenty One Pilots*. I have a fondness of Bollywood Music too specially when it comes to
+ *Sonu Nigam, Arijit Singh, Armaan Malik and A.R.Rehman.*  I am planning to learn a musical
+instrument soon.
 
-I love following political debates and have my own views towards them. In Sports, I am a fan of *M.S. Dhoni, the captain of Indian Cricket Team, 
-Wayne Rooney from Manchester United, and Lionel Messi from Barcelona*. In International Football matches I support *Germany* because India never gave me 
-a chance to support them till now but I believe it will one day. These are the two most important sports which I follow as well as play when I get time.
+I love following political debates and have my own views towards them. In Sports, I am a fan of *M.S. Dhoni, the captain of the Indian Cricket Team, 
+Wayne Rooney from Manchester United, and Lionel Messi from Barcelona*. In International Football matches, I support *Germany* because India never gave me 
+a chance to support them till now but I believe it will one day. 
 
 
 ## Early Life and Background
