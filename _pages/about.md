@@ -56,7 +56,7 @@ of the amazing artists which I like are *Sonu Nigam, Arijit Singh, Armaan Malik 
 
 I love following political debates and have my own views towards them. In Sports, I am a fan of *M.S. Dhoni, the captain of Indian Cricket Team, 
 Wayne Rooney from Manchester United, and Lionel Messi from Barcelona*. In International Football matches I support *Germany* because India never gave me 
-a chance to support them till now but I believe it will one day. These are the two most important sports which I follow as well play when I get time.
+a chance to support them till now but I believe it will one day. These are the two most important sports which I follow as well as play when I get time.
 
 
 ## Early Life and Background
