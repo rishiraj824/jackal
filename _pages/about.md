@@ -62,9 +62,9 @@ a chance to support them till now but I believe it will one day.
 
 My home town is *Jamshedpur* - the steel city of India. I completed my ISC (Indian School of 
 Certificate Exam) from [**Loyola High School, Jamshedpur**](http://loyola.edu.in/) - indeed one of the best in the country. Since I spent all
-of my childhood in Jamshedpur I literally have a soft corner for the city and a tonnes of 
+of my childhood in Jamshedpur I literally have a soft corner for the city and tonnes of 
 memories attached to it. My school gave me the opportunity and exposure to one of the 
-best faculties and quality of education in India and is the root cause behind shaping my career.
+best faculties and quality of education in India and plays a major role in shaping my career.
 
 While I was in Loyola School, I managed to make my appearance as a writer and photographer which earned me
 the following.
