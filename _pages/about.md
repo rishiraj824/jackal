@@ -28,7 +28,7 @@ permalink: /about/
 
 ## Clubs and Chapters
 
-I believe being busy is the best way to learn new things, manage time and build yourself up. So I keep myself involved in the following Chapters and Clubs in my College.
+I believe being busy is the best way to learn new things, manage time and build up yourself. So I keep myself involved in the following Chapters and Clubs in my College.
 
 - [**Google Developer Groups (GDG-VIT Vellore)**](http://gdgvitvellore.com)<br>
 	*Vice President (Technical)* - Member Since Jan 2015	
