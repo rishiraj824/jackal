@@ -27,7 +27,7 @@
       <link rel="alternate" href="http://www.rishiraj.co" hreflang="en-us" />
       <meta name="language" content="en-us">
       <meta http-equiv="content-language" content="en"> 
-  <meta name="viewport" content="width=device-width" />
+      <meta name="viewport" content="width=device-width,minimum-scale=1" />
       <link rel="alternate" href="http://www.rishiraj.co" hreflang="en-us" />
       <meta name="distribution" content="Global" />
       <meta name="robots" content="index, follow" />
@@ -37,7 +37,7 @@
     
       <meta name="author" content="Rishi Raj">     
   <!--SEO Data-->
-  
+      
       <meta name="description" content="I am a Full Time Web Developer with a good amount of experience in Web Applications, Wordpress and Software Management." />
       <meta name="keywords" content="rishi raj, rishi raj jamshedpur, rishi raj vit university, rishi raj vit, rishi raj winuall, rishi raj web developer, rishi raj google developer groups, rishi raj gdgvit, rishi raj drupal, rishi raj loyola school" />
       <meta name="copyright" content="Rishi Raj"/>
@@ -101,6 +101,7 @@
 
   <!-- CSS files -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
 
 {% if site.google_analytics %}
 <script>
@@ -112,6 +113,24 @@
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
 </script>
-<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 {% endif %}
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Personal Website",
+  "url": "http://www.rishiraj.co",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+91-9943777428",
+    "contactType": "Personal WEbsite"
+  }]
+}
+</script>
+
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+
 </head>
