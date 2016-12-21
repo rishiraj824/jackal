@@ -1,13 +1,14 @@
 ---
 layout: page
-title: Project
-permalink: work/sample-work/
-subtitle: Sample work
+title: Winuall 
+permalink: work/winuall/
+subtitle: Forum for Preparing Students for IIT-JEE 
 ---
 
-## Liber orbes sternentemque nunc mortalia rotae supplex
+## Lead of Frontend Development
 
-Lorem **markdownum fugiens** lanigerosve [genus doctis
+It has been a pleasure working for the one and only startup where I've found 
+ **markdownum fugiens** lanigerosve [genus doctis
 sustinet](http://violenta.com/contraria) flamma tecti, perdiderat. Alcides et
 manu! Aquarum exclamat adulter tuos; et fuerit has levi gurgite movit, candentia
 cava pharetramque aures Cythereiadasque turbant utinam erat.
