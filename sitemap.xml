@@ -1,29 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--
+ created with Free Online Sitemap Generator www.xml-sitemaps.com 
+-->
 <url>
-  <loc>http://rishiraj.co/</loc>
-  <lastmod>2016-11-05T19:10:47+00:00</lastmod>
+<loc>http://rishiraj.co/</loc>
+<lastmod>2016-12-21T17:50:14+00:00</lastmod>
 </url>
 <url>
-  <loc>http://rishiraj.co/articles/</loc>
-  <lastmod>2016-11-05T19:10:47+00:00</lastmod>
+<loc>http://rishiraj.co/articles/</loc>
+<lastmod>2016-12-21T17:50:14+00:00</lastmod>
 </url>
 <url>
-  <loc>http://rishiraj.co/projects/</loc>
-  <lastmod>2016-11-05T19:10:47+00:00</lastmod>
+<loc>http://rishiraj.co/projects/</loc>
+<lastmod>2016-12-21T17:50:14+00:00</lastmod>
 </url>
 <url>
-  <loc>http://rishiraj.co/about/</loc>
-  <lastmod>2016-11-05T19:10:47+00:00</lastmod>
+<loc>http://rishiraj.co/work/</loc>
+<lastmod>2016-12-21T17:50:14+00:00</lastmod>
 </url>
 <url>
-  <loc>http://rishiraj.co/work/</loc>
-  <lastmod>2016-11-05T19:10:47+00:00</lastmod>
+<loc>http://rishiraj.co/about/</loc>
+<lastmod>2016-12-21T17:50:14+00:00</lastmod>
+</url>
+<url>
+<loc>http://rishiraj.co/2016/AISEC-egypt-trip/</loc>
+<lastmod>2016-12-21T17:50:14+00:00</lastmod>
 </url>
 </urlset>
+( function(){ window.SIG_EXT = {}; } )()
