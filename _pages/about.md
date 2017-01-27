@@ -66,7 +66,7 @@ of my childhood in Jamshedpur I literally have a soft corner for the city and to
 memories attached to it. My school gave me the opportunity and exposure to one of the 
 best faculties and quality of education in India and plays a major role in shaping my career.
 
-While I was in Loyola School, I managed to make my appearance as a writer and photographer which earned me
+<!-- While I was in Loyola School, I managed to make my appearance as a writer and photographer which earned me
 the following.
 
 - **Journalism/Publication**
@@ -114,7 +114,7 @@ Winner of the Essay Competition organized by the Rotary Club of Jamshedpur Topic
 *1st Runner-Up in the Photography Competition*<br>
 1st Runner Up in Intra School Photography Competition, Represented Loyola School
 In the Photography Competition in South Asia’s largest school fest in the Jamshedpur’s Horlicks Wiz kids 2013.
-
+ -->
 
 
 ---
