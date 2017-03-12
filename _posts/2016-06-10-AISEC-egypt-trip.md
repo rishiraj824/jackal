@@ -1,11 +1,23 @@
 ---
 title: AIESEC Trip To Egypt
-desc: What I was able to gather in those 6 weeks.
+desc: A small tale on this one time experience.
 ---
 
-## Still Working on It! Be in touch.
+Ever went abroad with people who you haven't met before? I suggest you should. This was my first trip out of the country and to be honest its one of the best experiences I have made in my life till now. People from Brazil, Ukraine, Serbia, India and Italy who had never met before, in a country they have never been. Its funny and strange at the same time how people bond together so fast. That happened to me as well. I made good friends, helped each other in need and travelled together.
 
-Here are some glimpses though
+I was welcomed to Cairo, Egypt at the airport by an AISECer who was an Egyptian who greeted me with a lovely 'Namaste'. He drove me to the vodafone local store to get me a SIM Card and showed me the place where I would be living for the next 6 weeks. The guys had the house were working on an Andorid application and I quickly found myself involved in their work. In the very first day, I played FIFA with them and got to taste the amazing home made *Koshari*. Well it just felt like home since the first day. 
+
+With work only on 5 days in a week and chilling during the weekends in *Feluka*, shopping in *Khan el Khalili*, *Mokattam*, *Tahrir Square* and Egyptian Street Food, spending time in Egypt was so easy that I couldn't believe how 6 weeks passed away. We travelled to Alexandria and Dahab too. I visited the *Pyramids in Giza, Alexandria's Library, Red Sea in Dahab*.
+
+Overall Egypt is a wonderful place with wonderful people. Arabic is a very difficult language to be honest. People are very fond of Bollywood Music and its culture. They deeply follow the movies and the actors. I suggest everyone to visit this country rich in culture and ancient history. There's a lot one can learn from these people. Here are some glimpses from the trip.
+
+
+
+
+
+
+
+
 
 
 {::nomarkdown} 
@@ -21,6 +33,7 @@ Here are some glimpses though
 {::nomarkdown}
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BAQiuJeipHN/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">#Horse #Riding #pyramids #giza #vscodaily #vsco</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Rishi Raj (@rishi_raj95) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-01-08T00:47:29+00:00">Jan 7, 2016 at 4:47pm PST</time></p></div></blockquote>
 {:/}
+
 <!-- 
 Lorem markdownum liquidas. Ad qui saxo prodis una, dextra medicamina fremit
 voce, Iuppiter, sum morte, et. Est hos est vultum ocius dextra praetulit
