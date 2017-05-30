@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Liquid error: undefined method `gsub' for nil:NilClass</title>
+    <description></description>
+    <link>http://rishiraj.co</link>
+    <atom:link href="http://rishiraj.cohttp://rishiraj.co/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Using , 2017</title>
+        <description>&lt;h3 id=&quot;using-flux-to-embed-susis-api-service-in-a-chat-system&quot;&gt;Using Flux to embed SUSI’s API Service in a Chat System.&lt;/h3&gt;
+
+&lt;p&gt;To embed SUSI’s API Service in a chat like system, I needed a view which could populate the content dynamically and maintain the state of the Application at the same time. Flux follows a unidirectional data flow path and I used this feature to the advantage of the Chat Application to maintain the real time state of the Chat View.&lt;/p&gt;
+
+&lt;p&gt;A Flowchart model of Flux looks like &lt;/p&gt;
+
+&lt;p&gt;src: https://github.com/facebook/flux&lt;/p&gt;
+
+&lt;p&gt;Flux uses a dispatcher service to render its views, thus making the data flow in a unidirectional path. When a user reacts with a React view (here through the TextArea in the chat system), the view propagates an action through the dispatcher service, to the various stores that hold the application’s data and finally update the views that are affected. Here’s another flowchart model from the website which helps one understand the model in a better way.&lt;/p&gt;
+
+&lt;p&gt;For the current Chat Application, I used a single Message Store which contained all the event listeners to detect any change in the view. For example, when I send a “Hey” to SUSI, an action is called to Dispatch this message to the Message Store with an ActionType  “CREATE_MESSAGE”. This store then renders the message in the Message Section View.&lt;/p&gt;
+
+&lt;p&gt;Here is an example snippet from the Actions.js file which performs an action of type CREATE_MESSAGE and dispatches the messages to the MessageStore.js.
+ &lt;code&gt;
+export function createMessage(text, currentThreadID) {
+  let message = ChatMessageUtils.getCreatedMessageData(text, currentThreadID);
+  ChatAppDispatcher.dispatch({
+    type: ActionTypes.CREATE_MESSAGE,
+    message
+  });
+  ChatWebAPIUtils.createMessage(message);
+};
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The response from the message is generated as soon as another ActionType named 
+“CREATE_SUSI_MESSAGE” is dispatched to the store, thereby rendering the SUSI’s response generated in the view.&lt;/p&gt;
+
+&lt;p&gt;The file ChatConstants.js which declares all the ActionTypes.
+ ```
+import keyMirror from ‘keymirror’;&lt;/p&gt;
+
+&lt;p&gt;export default {&lt;/p&gt;
+
+&lt;p&gt;ActionTypes: keyMirror({
+    CREATE_MESSAGE: null,
+    RECEIVE_RAW_CREATED_MESSAGE: null,
+    CREATE_SUSI_MESSAGE: null,
+    RECEIVE_SUSI_MESSAGE: null,
+    RECEIVE_RAW_MESSAGES: null
+  })&lt;/p&gt;
+
+&lt;p&gt;};
+```&lt;/p&gt;
+
+&lt;p&gt;To get the message up on the view, I have used the following utils to call the API, render the messages to the view and call the different actions. Here’s a code snippet from ChatMessageUtils.js
+ &lt;code&gt;
+export function createMessage(message) {
+  ChatExampleDataServer.postMessage(message, createdMessage =&amp;gt; {
+    Actions.receiveCreatedMessage(createdMessage, message.id);
+  });
+  ChatExampleDataServer.postSUSIMessage(message, createdMessage =&amp;gt; {
+    Actions.createSUSIMessage(createdMessage, message.threadID);
+  });
+};
+&lt;/code&gt;
+To know more about Flux you can visit the following websites.
+Docs and In-Depth Overview http://facebook.github.io/flux/docs/in-depth-overview.html#content
+Video Tutorials - http://facebook.github.io/flux/docs/videos.html#content&lt;/p&gt;
+
+&lt;p&gt;To know more about the project join us on Gitter at gitter.im/fossasia/susi_webchat, or to contribute go to https://github.com/fossasia/chat.susi.ai/.&lt;/p&gt;
+
+&lt;p&gt;A demo application can be found running at http://chat.susi.ai. &lt;/p&gt;
+
+&lt;p&gt;To view more about my visit this &lt;a href=&quot;https://www.flickr.com/photos/comprock/with/33507285285/&quot;&gt;link&lt;/a&gt;. Thanks to &lt;a href=&quot;http://twitter.com/comprock&quot;&gt;@Comprock&lt;/a&gt; :)&lt;/p&gt;
+</description>
+        <pubDate>2017-07-01 00:00:00 +0530</pubDate>
+        <link>http://rishiraj.co/2017/Using-Flux-to-embed-SUSIs-API-Service-in-a-chat-system/</link>
+        <guid isPermaLink="true">http://rishiraj.co/2017/Using-Flux-to-embed-SUSIs-API-Service-in-a-chat-system/</guid>
+      </item>
+    
+      <item>
+        <title>FOSSASIA Summit, 2017</title>
+        <description>&lt;p&gt;It’s one of those rare occasions when you take part in a coding competition and you end up in a situation where staying up nights and giving your hundred percent becomes a necessity because you are competing over Github with over 440+ participants over 13 different countries. The competition about which I am talking is &lt;a href=&quot;http://codeheat.org&quot;&gt;#CodeHeat&lt;/a&gt; where I could never have imagined to see myself come out as one of the finalists with the quality and range of developers. &lt;/p&gt;
+
+&lt;p&gt;Well it all started in October when I started with my first pull request and had a tough time getting it merged since my commit messages weren’t upto the mark and I didn’t squash my commits properly. It’s very true that when you are working with 20 other people in a &lt;a href=&quot;http://loklak.net&quot;&gt;project&lt;/a&gt; you tend to learn a lot of new things and that was more important to me during this period. I was a rookie open source contributor before I took part in &lt;a href=&quot;http://codeheat.org&quot;&gt;#CodeHeat&lt;/a&gt; and to be honest it showed me where I stood. Since that time I have only learned and pivoted towards writing more effecient and quality code rather than getting to workarounds.&lt;br /&gt;
+&lt;a href=&quot;http://codeheat.org&quot;&gt;#CodeHeat&lt;/a&gt; was a wonderful time, solving issues, reviewing issues and pull requests, implementing new ideas, we actually managed to develop an effective search service on the &lt;a href=&quot;http://api.loklak.org&quot;&gt;loklak API&lt;/a&gt;. And in return &lt;a href=&quot;http://fossasia.org&quot;&gt;FOSSASIA&lt;/a&gt; provided us with a free stay and a $100USD coupon sponsoring our ticket to attend the annual &lt;a href=&quot;http://2017.fossasia.org&quot;&gt;FOSSASIA Summit&lt;/a&gt; in Singapore during the 17th-19th March. You can read about it more here at &lt;a href=&quot;blog.fossasia.org&quot;&gt;blog.fossasia.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A marvellous 3 day event was conducted with revolutionary talks from one of the best developers, tech enthusiasts and business personnels around the globe talking about technologies on AI, Machine Learning, Web, Open Source Projects and many more one could talk about. It was wonderful to interact with so many potential Engineers and Developers around the globe and to know what they work on. Nevertheless Singapore is an amazing place to be in and I got to meet a lot of wonderful people and make contacts with so many of them. I even took a session on Github which was out of the blue. Thanks to &lt;a href=&quot;http://twitter.com/hpdang&quot;&gt;@hpdang&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here are some of the glimpses from the Summit and from my trip.
+{::nomarkdown} 
+&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; data-context=&quot;true&quot; href=&quot;https://www.flickr.com/photos/comprock/32663656154/in/pool-fossasia-2017-singapore/&quot; title=&quot;FOSSASIA 2017&quot;&gt;&lt;img src=&quot;https://c1.staticflickr.com/1/566/32663656154_c017b99a33_z.jpg&quot; width=&quot;640&quot; height=&quot;185&quot; alt=&quot;FOSSASIA 2017&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&amp;lt;blockquote class=&quot;instagram-media&quot; data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&amp;gt;&amp;lt;div style=&quot;padding:8px;&quot;&amp;gt; &amp;lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:37.4537037037037% 0; text-align:center; width:100%;&quot;&amp;gt; &amp;lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&amp;gt;&lt;a href=&quot;https://www.instagram.com/p/BR0LMu-gv2z/&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Rishi Raj (@rishi_raj95)&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2017-03-19T09:48:19+00:00&quot;&gt;Mar 19, 2017 at 2:48am PDT&lt;/time&gt;&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/blockquote&amp;gt; &lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&amp;lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&amp;gt;&amp;lt;div style=&quot;padding:8px;&quot;&amp;gt; &amp;lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&amp;gt; &amp;lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&amp;gt; &lt;a href=&quot;https://www.instagram.com/p/BRv1iYagsWc/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;This is the swag collection from one day :)&lt;/a&gt;&amp;lt;/p&amp;gt; &amp;lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&amp;gt;A post shared by Rishi Raj (@rishi_raj95) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2017-03-17T17:22:04+00:00&quot;&gt;Mar 17, 2017 at 10:22am PDT&lt;/time&gt;&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/blockquote&amp;gt; &lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&amp;lt;blockquote class=&quot;instagram-media&quot; data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&amp;gt;&amp;lt;div style=&quot;padding:8px;&quot;&amp;gt; &amp;lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&amp;gt; &amp;lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&amp;gt;&lt;a href=&quot;https://www.instagram.com/p/BRrlQ5jgA3c/&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Rishi Raj (@rishi_raj95)&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2017-03-16T01:42:54+00:00&quot;&gt;Mar 15, 2017 at 6:42pm PDT&lt;/time&gt;&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/blockquote&amp;gt; &lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;To view more photos visit this &lt;a href=&quot;https://www.flickr.com/photos/comprock/with/33507285285/&quot;&gt;link&lt;/a&gt;. Thanks to &lt;a href=&quot;http://twitter.com/comprock&quot;&gt;@Comprock&lt;/a&gt; :)&lt;/p&gt;
+</description>
+        <pubDate>2017-03-22 00:00:00 +0530</pubDate>
+        <link>http://rishiraj.co/2017/FOSSASIA-Summit-Singapore-and-CodeHeat/</link>
+        <guid isPermaLink="true">http://rishiraj.co/2017/FOSSASIA-Summit-Singapore-and-CodeHeat/</guid>
+      </item>
+    
+      <item>
+        <title>AIESEC Trip To Egypt</title>
+        <description>&lt;p&gt;Ever went abroad with people who you haven’t met before? I suggest you should. This was my first trip out of the country and to be honest its one of the best experiences I have made in my life till now. I came to know people from Brazil, Ukraine, Serbia, Algeria India and Italy who had never met before. Its funny and strange at the same time how people bond together so fast. That happened to me as well. I made some really good friends, and bonded with them really well.&lt;/p&gt;
+
+&lt;p&gt;I was welcomed to Cairo, Egypt at the airport by an AISECer who was an Egyptian who greeted me with a lovely ‘Namaste’. He drove me to the Vodafone local store to get me a SIM Card and showed me the place where I would be living for the next 6 weeks. The guys had the house were working on an Andorid application and I quickly found myself involved in their work. In the very first day, I played FIFA with them and got to taste the amazing home made &lt;em&gt;Koshari&lt;/em&gt;. Well it just felt like home since the first day. &lt;/p&gt;
+
+&lt;p&gt;With work only on 5 days in a week and chilling during the weekends in &lt;em&gt;Feluka&lt;/em&gt;, shopping in &lt;em&gt;Khan el Khalili&lt;/em&gt;, &lt;em&gt;Mokattam&lt;/em&gt;, &lt;em&gt;Tahrir Square&lt;/em&gt; and eating Egyptian Street food, spending time in Egypt was so easy that I couldn’t believe how 6 weeks passed away. I travelled to Alexandria and Dahab with my fellow AISECers and they made my time amazing.  I visited the &lt;em&gt;Pyramids in Giza, Alexandria’s Library, Red Sea in Dahab&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Overall Egypt is a wonderful place with wonderful people. Arabic is a very difficult language to be honest. People are very fond of Bollywood Music and its culture. They deeply follow the movies and the actors. Rich in its culture and ancient history, Egyipt stands high in these aspects far up than the rest of the countries. There’s a lot one can learn from these people. Here are some glimpses from the trip.&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:37.5% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/_-pyZ2CpFK/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;It&amp;#39;s the Mediterranean :P #egypt #alexandria #mediterranean #beautiful #cankeeplooking #vsco #vscoegypt&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A photo posted by Rishi Raj (@rishi_raj95) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2016-01-01T02:02:55+00:00&quot;&gt;Dec 31, 2015 at 6:02pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned data-instgrm-version=&quot;7&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/BAQiuJeipHN/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;#Horse #Riding #pyramids #giza #vscodaily #vsco&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A photo posted by Rishi Raj (@rishi_raj95) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2016-01-08T00:47:29+00:00&quot;&gt;Jan 7, 2016 at 4:47pm PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+
+&lt;!-- 
+Lorem markdownum liquidas. Ad qui saxo prodis una, dextra medicamina fremit
+voce, Iuppiter, sum morte, et. Est hos est vultum ocius dextra praetulit
+aequoris hominem.
+
+- Decet fore donec
+- Exiguo pontus fulgorem specto vultumque dederas
+- Vix ferire metu ferox
+- Loci quis postera quicquid nullis
+
+## Cum visuras longo venisse denique utinam rurigenae
+
+Laeva clamat qui Perseus erit, discrimine ramos illa
+[restabat](http://iactato.com/parsque-aliter.php): bracchia, templa, ab
+spectans. Monte contigit Rhodosque manus mille est omnia eiusdem nondum: qui.
+Modo o Nisus [Haemoniam primus](http://operatus.com/utve-dat.html) male hic
+iactis in undas et vel nunc et Tantalides fuit crede. Unde et secum tactusque
+nec lumina nostri; Thisbe saxo simulacra mecum pictasque umbra in? Matris alis
+dat.
+
+## Exclamat illis omnipotens huic enses est
+
+Cannis detrahe et postquam, turba delere ergo radios sunt! Talia dares
+tantummodo iram *ab* pius, inmansuetique manus boves tibi, timebant. Dedit
+ossibus accedere siccat. Inritare submovet figuris quam, volucrem falsa. Videt
+eripite pro [Semina](http://modo.net/).
+
+Nitor dicimus potentia ad pedis. Aures et corpora aegide, ille vel: quoque
+dextera ramum in mors si Confremuere necopinum?
+
+## Poena corpus enixa fumo non auctor iudice
+
+Peregit commisisse conantem nihil contigerant terras colla consitor favilla
+exstitit crepitantibus quam Hesperien. Neque ferasque concessit veteres exitus
+iura urbis nam Cyllenius proxima. Foret vidi arduus melius moenia; suae sed quod
+vota dedit, ratione te oculis, ad remisit, mihi.
+
+&gt; Cumaea Orithyia terram: verendam et iaculo inhonorati **intumuere umentia**!
+&gt; Tuorum esse sed Atridae cum melius, plenissima aurea, **caelum**. Cythereius
+&gt; *liber*. Fert extra tenus homine opportuna precari. Ecce quae cani amantem,
+&gt; ast posse, **vixisti et**.
+
+Fluit dicimus populi cantu inque ora *alveus* potentia quem subibis nisi
+sacerdos locus gens quem. Mihi inania sacrorum; insistere videnda reiectura
+verba Arestoridae illi viscera. Incertam natae creatis suis.
+ --&gt;
+</description>
+        <pubDate>2016-06-10 00:00:00 +0530</pubDate>
+        <link>http://rishiraj.co/2016/AISEC-egypt-trip/</link>
+        <guid isPermaLink="true">http://rishiraj.co/2016/AISEC-egypt-trip/</guid>
+      </item>
+    
+  </channel>
+</rss>
