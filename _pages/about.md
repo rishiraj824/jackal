@@ -31,31 +31,16 @@ permalink: /about/
 I believe being busy is the best way to learn new things, manage time and build up yourself. So I keep myself involved in the following Chapters and Clubs in my College.
 
 - [**Google Developer Groups (GDG-VIT Vellore)**](http://gdgvitvellore.com)<br>
-	*Vice President (Technical)* - Member Since Jan 2015	
+	*Organizer* - Member Since Jan 2015 - Oct 2017
 
 - [**Association for Computing Machinery (ACM-VIT)**](http://acmvit.com)<br>
-	*Deputy Technical Head* - Member Since April 2015	
+	*Deputy Technical Head* - Member Since April 2015 - July 2017	
 	
 - [**Atlassian User Groups**](http://https://aug.atlassian.com/cities/velloreindia)<br>
-	*Core Member* - Member Since Jan 2016	
+	*Core Member* - Member Since Jan 2016 - March 2017
 	
 
-## My Interests and Hobbies
 
-I love watching TV Series and Movies in my part time. The favourite one is too tough to 
-decide as it keeps changing, though I love *Breaking Bad* and *Friends* the most. Recently, I have started following
-*Westworld* and I love the way Jonathan Nolan has brought out the concepts of
-Artificial Intelligence and Human-Computer Interaction to reality. Other than these, I have watched *Daredevils, Suits, Game of Thrones, 
-How I Met Your Mother, Two and a Half Men, Prison Break* and many more which I would love to talk about.
-
-When it comes to Music, I follow *Electronic/Hip-Pop/R&B/Rap/Rock*. It helps me concentrate and adds fun to coding. Well, my favourite artists include
-*Coldplay, Chainsmokers, Avicii, Hardwell, Dimitri Vegas, Rihanna, Fifth Harmony, Twenty One Pilots*. I have a fondness of Bollywood Music too specially when it comes to
- *Sonu Nigam, Arijit Singh, Armaan Malik and A.R.Rehman.*  I am planning to learn a musical
-instrument soon.
-
-I love following political debates and have my own views towards them. In Sports, I am a fan of *M.S. Dhoni, the captain of the Indian Cricket Team, 
-Wayne Rooney from Manchester United, and Lionel Messi from Barcelona*. In International Football matches, I support *Germany* because India never gave me 
-a chance to support them till now but I believe it will one day. 
 
 
 ## Early Life and Background
