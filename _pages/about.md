@@ -21,7 +21,7 @@ permalink: /about/
   spend is on my laptop -- working on projects, building something new and exploring new methods and frameworks in Web. The
   rest of the time, I love going to different places, trying out new restaurants and meeting new people. 
 
-  I am currently in the 6th Semester of my *Bachelor's Degree in Computer Science* which I am pursuing from *VIT University, Vellore.*
+  I am currently in the Final Semester(8th) of my *Bachelor's Degree in Computer Science* which I am pursuing from *VIT University, Vellore.*
   
 
 ---
