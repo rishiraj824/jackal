@@ -1,4 +1,10 @@
-### 15 helpful FAQs which should help before applying to Google Summer of Code
+---
+title: 15 helpful FAQs for Google Summer of Code
+desc: This is a consolidation of very common questions asked by developers while applying before GSoC.
+---
+
+
+<img src ="https://camo.githubusercontent.com/ed508e9c66d718f76333215a139af24f8bb8fa8d/68747470733a2f2f6d75736573636f72652e6f72672f73697465732f6d75736573636f72652e6f72672f66696c65732f4361707475726525323064253237652543432538316372616e253230323031362d30332d303125323030392e34382e31315f302e706e67">
  
 The bullets in this article have been curated over the questions which fellow developers keep asking about [Google Summer of Code](https://summerofcode.withgoogle.com/) and how to start approaching open source. So if you find anything missing or incorrect feel free to write to me.
 
@@ -9,7 +15,7 @@ For example, to view the list of ideas of FOSSASIA head to [this link](https://s
 
 2. How do you prepare for Google Summer of Code? What should be my roadmap?
 
-Start early is the best advice you'd get from every GSoCer. The right time to start preparing for GSoC 18 program was October/November. Make sure to interact with fellow developers and organisation admins. Be active on their IRC channels. Get involved completely with atleast one project where you find a potential of development and of adding new features. Find bugs, issues and report them in the repository. Help fellow developers in the project and review their work. Try to get involved in their community.
+Start early is the best advice you'd get from every GSoCer. Make sure to interact with fellow developers and organisation admins. Be active on their IRC channels. Get involved completely with atleast one project where you find a potential of development and of adding new features. Find bugs, issues and report them in the repository. Help fellow developers in the project and review their work. Try to get involved in their community.
 
 3. How early should I begin writing my proposald
 

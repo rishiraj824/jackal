@@ -16,7 +16,7 @@ permalink: /about/
     <img src="{{ site.baseurl }}/assets/img/logo.png">
 </figure>
 {:/}
-  I have a fondness and passion for Web Technologies and have a good amount of experience
+  I have a fondness and passion for latest Web Technologies and have a good amount of experience
   in the same. I love working on **AngularJS (1.0,2.0), React-Redux, Laravel and Wordpress**. Most of the time which I
   spend is on my laptop -- working on projects, building something new and exploring new methods and frameworks in Web. The
   rest of the time, I love going to different places, trying out new restaurants and meeting new people. 
