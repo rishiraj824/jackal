@@ -53,7 +53,7 @@ No issues. If you aren't sure about the development aspects make sure you have s
 
     11. I am not familiar with Git/Github. What do I do?
 
-This is a major problem because every GSoC applicant is expected to have learned Git/Github or be able to submit his or her code online. There are various courses, [try.github.io](https://try.github.io/levels/1/challenges/1) and [Youtube Videos](https://www.youtube.com/results?search_query=git+101&page=&utm_source=opensearch) which can help you get started.
+This is a major problem because every GSoC applicant is expected to have learned Git/Github or be able to submit his or her code online. There are various online resources, like [try.github.io](https://try.github.io/levels/1/challenges/1) and various [Youtube Videos](https://www.youtube.com/results?search_query=git+101&page=&utm_source=opensearch) which can help you get started.
 
     12. My Github profile isn't that impressive. Is that a problem?
 
