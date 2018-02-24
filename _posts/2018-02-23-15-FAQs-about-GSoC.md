@@ -17,7 +17,7 @@ For example, to view the list of ideas of FOSSASIA head to [this link](https://s
 
 Start early is the best advice you'd get from every GSoCer. Make sure to interact with fellow developers and organisation admins. Be active on their IRC channels. Get involved completely with atleast one project where you find a potential of development and of adding new features. Find bugs, issues and report them in the repository. Help fellow developers in the project and review their work. Try to get involved in their community.
 
-    3. How early should I begin writing my proposald
+    3. How early should I begin writing my proposal?
 
 You shouldn't be in a situation of submitting the proposal at the last minute, so to make sure you are doing good on your proposal, have a green signal from your potential mentors  and have reviewed every thing correctly you should begin atleast 3 weeks before the deadline. There might be times your proposal would need two to three revisions from the mentors, mentors are busy most of the times so don't run after sending them long messages and pinging them on the main channels. They definitely will help you out once they are free.
 
@@ -53,7 +53,7 @@ No issues. If you aren't sure about the development aspects make sure you have s
 
     11. I am not familiar with Git/Github. What do I do?
 
-This is a major problem because every GSoC applicant is expected to have learned Git/Github or be able to submit his or her code online. There are various courses and [Youtube Videos](https://www.youtube.com/results?search_query=git+101&page=&utm_source=opensearch) which can help you get started.
+This is a major problem because every GSoC applicant is expected to have learned Git/Github or be able to submit his or her code online. There are various courses, [try.github.io](https://try.github.io/levels/1/challenges/1) and [Youtube Videos](https://www.youtube.com/results?search_query=git+101&page=&utm_source=opensearch) which can help you get started.
 
     12. My Github profile isn't that impressive. Is that a problem?
 
