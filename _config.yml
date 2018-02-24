@@ -1,10 +1,10 @@
 # The main config file for your Jekyll template
 
 # Site settings
-title: Rishi Raj               # used for the html title of every page
+title: Rishi Raj - Software Developer, Google Summer of Code Intern, Open Source Enthusiast               # used for the html title of every page
 desc: >
-  Hello, there! I am Rishi Raj. I'm a Web Developer who has experience
-  in ReactJS, AngularJS, Javascript, Laravel and Wordpress.
+  Hello, there! I am Rishi Raj. Software Developer, Open Source Enthusiast who has experience
+  in ReactJS, AngularJS, Javascript and Laravel.
 
 
 
@@ -66,5 +66,6 @@ exclude:
   - README.md
   - vendor
 gems:
+  - jekyll-seo-tag
   - jekyll-paginate
 
