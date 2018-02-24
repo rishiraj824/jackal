@@ -38,7 +38,19 @@
 </url>
 <url>
   <loc>http://rishiraj.co/2016/AISEC-egypt-trip/</loc>
-  <lastmod>2016-12-21T18:13:02+00:00</lastmod>
+  <lastmod>2018-03-23T18:13:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+  <url>
+  <loc>http://rishiraj.co/2018/15-FAQs-about-GSoC/</loc>
+  <lastmod>2018-03-23T18:13:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+      <url>
+  <loc>http://rishiraj.co/2017/FOSSASIA-Summit-Singapore-and-CodeHeat/</loc>
+  <lastmod>2018-03-23T18:13:02+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
