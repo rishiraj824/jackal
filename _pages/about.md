@@ -16,7 +16,7 @@ permalink: /about/
     <img src="{{ site.baseurl }}/assets/img/logo.png">
 </figure>
 {:/}
-  I am a Software Developer with professional experience in **Javascript** and some well known frameworks: React, Redux, Electron, React Native and AngularJS (1.0,2.0). I have also worked on NodeJS, Express, Firestore, Firebase RealtimeDB, MongoDB, Python, Django, Flask, GCP Console, AWS Console**. 
+  I am a Software Developer with professional experience in **Javascript** and some well known frameworks: React, Redux, Electron, React Native and AngularJS (1.0,2.0). I have also worked on NodeJS, Express, Firestore, Firebase RealtimeDB, MongoDB, Python, Django, Flask, GCP Console, AWS Console. 
   
   I have contributed in Open Source Communities like [FOSSASIA](https://fossasia.org) and [Drupal](http://drupal.org). I have successfully completed [Google Summer of Code](https://summerofcode.withgoogle.com) and mentored students for the same.
 
@@ -38,7 +38,7 @@ I believe being busy is the best way to learn new things, manage time and build 
 
 
 
-
+<!-->
 ## Early Life and Background
 
 My home town is *Jamshedpur* - the steel city of India. I completed my ISC (Indian School of 
