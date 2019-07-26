@@ -24,28 +24,27 @@ permalink: /about/
 
 ## Clubs and Chapters
 
-I believe being busy is the best way to learn new things, manage time and build up yourself. So I keep myself involved in the following Chapters and Clubs in my College.
 
-- [**Google Developer Groups (GDG-VIT Vellore)**](http://gdgvitvellore.com)<br>
+- [**Google Developer Groups (GDG-VIT Vellore)**](https://dscvit.com)<br>
 	*Organizer* - Member Since Jan 2015 - Oct 2017
 
-- [**Association for Computing Machinery (ACM-VIT)**](http://acmvit.com)<br>
+- [**Association for Computing Machinery (ACM-VIT)**](https://acmvit.in/)<br>
 	*Deputy Technical Head* - Member Since April 2015 - July 2017	
 	
-- [**Atlassian User Groups**](http://https://aug.atlassian.com/cities/velloreindia)<br>
+- **Atlassian User Groups**<br>
 	*Core Member* - Member Since Jan 2016 - March 2017
 	
 
 
 
-<!-->
+<!--
 ## Early Life and Background
 
 My home town is *Jamshedpur* - the steel city of India. I completed my ISC (Indian School of 
 Certificate Exam) from [**Loyola High School, Jamshedpur**](http://loyola.edu.in/) - indeed one of the best in the country. Since I spent all
 of my childhood in Jamshedpur I literally have a soft corner for the city and tonnes of 
 memories attached to it. My school gave me the opportunity and exposure to one of the 
-best faculties and quality of education in India and plays a major role in shaping my career.
+best faculties and quality of education in India and plays a major role in shaping my career.-->
 
 <!-- While I was in Loyola School, I managed to make my appearance as a writer and photographer which earned me
 the following.
