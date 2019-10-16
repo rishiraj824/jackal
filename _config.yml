@@ -42,6 +42,8 @@ navigation:
   - title: About
     url: /about/
     desc: Know me a little
+  - title: Resume
+    url: /assets/Resume.pdf
 
 # Used by Jekyll to recognize what is a post and what is a page
 defaults:
