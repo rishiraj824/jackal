@@ -1,5 +1,6 @@
 ---
 title: Implementing Internationalization in Your App
+desc: Use Weblate to add internationalization to your app
 ---
 
 [SUSI Web Chat](https://github.com/fossasia/chat.susi.ai) supports different browser languages on the Chat UI. The content used to render the date/time formats and the text is translated to the preferred language based on the language selected in the Language Settings.

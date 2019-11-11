@@ -1,6 +1,8 @@
 ---
 title: Implementing Speech to Text for Chrome.
+desc: Add Speech to Text support to your App 
 ---
+
 [SUSI Web Chat](http://github.com/fossasia/chat.susi.ai) now replies to voice inputs. To achieve this, I made use of the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API). The voice input saves one from the pain of typing and it’s a much needed feature for the Web Chat and to maintain the similarity with the other [SUSI Android](http://github.com/fossasia/susi_android) and [SUSI iOS](http://github.com/fossasia/susi_iOS) clients.
 
 ![](https://rishirajme.files.wordpress.com/2017/07/67_kyecerwxjv.png)

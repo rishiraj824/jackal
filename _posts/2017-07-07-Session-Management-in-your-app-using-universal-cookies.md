@@ -1,6 +1,9 @@
 ---
 title: Minimal User Sessions and Management Using Universal-Cookies 
+desc: Manage Cookies using universal-cookies
 ---
+
+
 If you login to [SUSI Web Chat](http://github.com/fossasia/chat.susi.ai), and come back again after some days, you find that you didn’t have to login and all your previous sent messages are in there in the message pane. To achieve this, SUSI Web Chat uses cookies stored in your browser which is featured in this blog.  
 
 In ReactJS, it’s highly misleading and extensive to use the conventional Javascript methodology of saving tokens and deleting them. However, [universal-cookie](https://www.npmjs.com/package/universal-cookie), a node package allows you to store and get cookies with the least possible confusion. In the following examples, I have made use of the _get_, _set_ and _remove_ functions of the universal-cookie package which have documentations easily available at [this link.](https://github.com/reactivestack/cookies/blob/master/packages/universal-cookie/README.md) The basic problem one finds while setting cookies and maintaining sessions is the time through which it should be valid and to secure the routes. We shall look at the steps below to figure out how was it implemented in [SUSI Web Chat](http://github.com/fossasia/chat.susi.ai).

@@ -1,6 +1,8 @@
 ---
 title: Using react-slick in your app for horizontal feeds
+desc: See react-slick in action apart from regular sliders
 ---
+
 To populate SUSI RSS Feed generated, while chatting on [SUSI Web Chat](http://chat.susi.ai), I needed a Horizontal Swipeable Tile Slider. For this purpose, I made use of the package [react-slick](https://github.com/akiran/react-slick). The information which was supposed to be handled as obtained from the [SUSI Server](http://api.susi.ai) to populate the RSS feed was
 
 *   Title

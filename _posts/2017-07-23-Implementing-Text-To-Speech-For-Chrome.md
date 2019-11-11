@@ -1,5 +1,6 @@
 ---
 titile: Implementing Text to Speech for Chrome.
+desc: See how you can add Text to Speech support in your app.
 ---
 
 [SUSI Web Chat](http://chat.susi.ai) now gives voice replies while chatting with it similar to [SUSI Android](http://github.com/fossasia/susi_android) and [SUSI iOS](http://github.com/fossasia/susi_iOS) clients. To test the Voice Output on Chrome,

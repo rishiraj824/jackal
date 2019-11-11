@@ -23,7 +23,7 @@ github_source: rishiraj824.github.io
 google_analytics: 'UA-30210543-1'
 
 # Pagination settings
-paginate: 5                           # number of posts to show per page
+paginate: 15                           # number of posts to show per page
 paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf as is
 
 # Navigation settings

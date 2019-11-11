@@ -1,5 +1,6 @@
 ---
 title: Auto Deployment Using Travis CI
+desc: Deploy apps faster using Travis and gh-pages
 ---
 
 SUSI Web Chat uses Travis CI with a custom build script to deploy itself on gh-pages after every pull request is merged into the [project](http://github.com/fossasia/chat.susi.ai). The build system auto updates the latest changes hosted on [chat.susi.ai](http://chat.susi.ai). In this blog, we will see how to automatically deploy the repository on gh pages.

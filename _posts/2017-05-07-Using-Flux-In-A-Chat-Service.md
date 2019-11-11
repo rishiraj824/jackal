@@ -1,5 +1,6 @@
 ---
 title: Using Flux In a Chat Service
+desc: See Facebook's Flux in Action
 ---
 
 
