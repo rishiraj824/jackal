@@ -76,8 +76,10 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 90%;
-  color: $gray-dark;
+  font-size: 72%;
+  color: #c7254e;
+  background-color: #f2f2f2bd;
+  padding: 0 4px;
 
   code {
     padding: 0;
@@ -85,6 +87,7 @@ pre {
     color: inherit;
     background-color: transparent;
     border-radius: 0;
+    white-space: pre-wrap;
   }
 }
 

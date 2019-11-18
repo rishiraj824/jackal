@@ -1,6 +1,8 @@
+## Credits to Jackal Theme Maintainers
+
 # Jackal ![](https://img.shields.io/npm/l/express.svg?maxAge=2592000?style=flat-square)
 Jackal is a very lightweight theme for Jekyll.  
-Feel free to fork, change, modify and re-use it.
+
 
 ### Screenshots
 ![](https://cloud.githubusercontent.com/assets/447956/17020916/9ed9ce1a-4f44-11e6-80d5-26df9d219dd2.PNG)

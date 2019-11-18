@@ -11,7 +11,7 @@ Well it all started in October when I started with my first pull request and had
 A marvellous 3 day event was conducted with revolutionary talks from one of the best developers, tech enthusiasts and business personnels around the globe talking about technologies on AI, Machine Learning, Web, Open Source Projects and many more one could talk about. It was wonderful to interact with so many potential Engineers and Developers around the globe and to know what they work on. Nevertheless Singapore is an amazing place to be in and I got to meet a lot of wonderful people and make contacts with so many of them. I even took a session on Github which was out of the blue. Thanks to [@hpdang](http://twitter.com/hpdang).
 
 Here are some of the glimpses from the Summit and from my trip.
-{::nomarkdown} 
+
 <a data-flickr-embed="true" data-header="true" data-footer="true" data-context="true"  href="https://www.flickr.com/photos/comprock/32663656154/in/pool-fossasia-2017-singapore/" title="FOSSASIA 2017"><img src="https://c1.staticflickr.com/1/566/32663656154_c017b99a33_z.jpg" width="640" height="185" alt="FOSSASIA 2017"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 <br />
 <br />

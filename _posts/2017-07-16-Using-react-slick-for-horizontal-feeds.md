@@ -30,6 +30,7 @@ var settings = {
          arrows:false
      };
 ```
+
 speed – The Slider will scroll horizontally with this speed.
 
 slidesToShow – The number of slides to populate in one visible screen
@@ -39,6 +40,7 @@ swipeToSlide, swipe – Enable swiping on touch screen devices.
 arrows – Put false, to disable arrows
 
 1.  The next step is to initialize the Slider component inside the render function and populate it with the tiles. The full code snippet is available at [MessageListItem.react.js](https://github.com/fossasia/chat.susi.ai/blob/master/src/components/ChatApp/MessageListItem.react.js)
+
 ```
 <Slider {..settings}>//Append the settings which you created
     {yourListToProps} // Add the list tiles you want to see
