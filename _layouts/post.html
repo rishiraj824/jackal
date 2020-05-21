@@ -26,3 +26,6 @@ layout: default
   <em>Thank you for scrolling</em> <img src="{{ site.baseurl }}/assets/img/wink.png" class="emoji left">
 
 </article>
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}

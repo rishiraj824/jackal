@@ -1,7 +1,10 @@
 ---
 layout: page
-title: Blogs
-subtitle: Some dev I did and past learnings.
+title: Articles
+subtitle: Ideas, Open Source Dev, Resources and Learnings
+comments: true
+pagination:
+  enabled: true
 ---
 {% if paginator.page == 1 %}
   {% for post in site.posts limit: 2 %}
@@ -45,7 +48,7 @@ subtitle: Some dev I did and past learnings.
   </li>
   {% endif %}
 </ol>
-
+                          
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

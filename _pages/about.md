@@ -8,37 +8,56 @@ permalink: /about/
 
 <div class="pretty-links">
 
-<div class="lead lead-about">My name is *Rishi Raj*.
+<div class="lead lead-about">About me
 </div>
 
 {::nomarkdown} 
 <figure class="site-profile">
-    <img src="{{ site.baseurl }}/assets/img/logo.png">
+    <img src="{{ site.baseurl }}/assets/img/me.png">
 </figure>
 {:/}
-  I am a Software Developer with professional experience in **Javascript** and some well known frameworks: React, Redux, Electron, React Native and AngularJS (1.0,2.0). I have also worked on NodeJS, Express, Firestore, Firebase RealtimeDB, MongoDB, Python, Django, Flask, GCP Console, AWS Console. 
+  - Currently diving deep into Computer Science at NYU 🎓🔍
+  - Product focused Software Engineer 💻🚀
+  - Passionate about open source, ed-tech, media tech, building tools for developers.💡
+  - I can talk about scaling up your Web App, Open Source Contributions, new products
+  that will change the future 🎤🗣
+  - I also write about integrating tools 🛠,
+  about the dev I think might help others, recently started on [Medium](https://medium.com/@rishiraj824) too 📚
+  - I follow [HackerNews](https://news.ycombinator.com/) and [TechCrunch](https://techcrunch.com)
+  very closely 📰
   
-  I have contributed in Open Source Communities like [FOSSASIA](https://fossasia.org) and [Drupal](http://drupal.org). I have successfully completed [Google Summer of Code](https://summerofcode.withgoogle.com) and mentored students for the same.
-
----
-
-## Clubs and Chapters
-
+  I like to involve myself in tech communities
 
 - [**Google Developer Groups (GDG-VIT Vellore)**](https://dscvit.com)<br>
-	*Organizer* - Member Since Jan 2015 - Oct 2017
+	*Organizer* - Jan 2015 - Oct 2017
 
 - [**Association for Computing Machinery (ACM-VIT)**](https://acmvit.in/)<br>
-	*Deputy Technical Head* - Member Since April 2015 - July 2017	
+	*Deputy Technical Head* - April 2015 - July 2017	
 	
 - **Atlassian User Groups**<br>
-	*Core Member* - Member Since Jan 2016 - March 2017
+	*Core Member* - Jan 2016 - March 2017
+
+{::nomarkdown}
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Organised GSOC 17 meetup. Expecting more open source contributors on board 😄 <a href="https://twitter.com/hashtag/fossasia?src=hash&amp;ref_src=twsrc%5Etfw">#fossasia</a> <a href="https://twitter.com/fossasia?ref_src=twsrc%5Etfw">@fossasia</a> <a href="https://twitter.com/gsoc?ref_src=twsrc%5Etfw">@gsoc</a> <a href="https://twitter.com/asksusi?ref_src=twsrc%5Etfw">@asksusi</a> <a href="https://twitter.com/hpdang?ref_src=twsrc%5Etfw">@hpdang</a> <a href="https://twitter.com/mariobehling?ref_src=twsrc%5Etfw">@mariobehling</a> <a href="https://t.co/L7qh6bH55r">pic.twitter.com/L7qh6bH55r</a></p>&mdash; Rishi Raj (@rishiraj824) <a href="https://twitter.com/rishiraj824/status/897727806758670336?ref_src=twsrc%5Etfw">August 16, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+  {:/}
+
+
+> "A tweet back in time ⏲during my Bachelors"
+
+When I'm not working, I enjoy:
+ - Cooking 🍲 
+ - Running 🏃‍♂️
+ - Listening to my collection of "Liked Songs" 🎶 
+ - Gaming on my Switch 🎮
+
+
 	
 
 
 
 <!--
-## Early Life and Background
+## My achievements and 
 
 My home town is *Jamshedpur* - the steel city of India. I completed my ISC (Indian School of 
 Certificate Exam) from [**Loyola High School, Jamshedpur**](http://loyola.edu.in/) - indeed one of the best in the country. Since I spent all
@@ -98,10 +117,10 @@ In the Photography Competition in South Asia’s largest school fest in the Jams
 
 
 ---
-
+<!--
 ## You can write to me at 
 
-*rishiraj824@gmail.com*
-
+rishiraj824@gmail.com
+-->
 </div>
 

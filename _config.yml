@@ -23,24 +23,35 @@ github_source: rishiraj824.github.io
 google_analytics: 'UA-30210543-1'
 
 # Pagination settings
-paginate: 15                           # number of posts to show per page
-paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf as is
+pagination:
+  
+  # Site-wide kill switch, disabled here it doesn't run at all 
+    enabled: true
+    per_page: 15                          # number of posts to show per page
+    permalink: '/articles/page/:num/'
+    sort_field: 'date'
+    sort_reverse: true
 
+
+comments: true
+# Discus Short Name
+disqus:
+  shortname: disqus_shortname
 # Navigation settings
 # Used to define the navigation menu items
 # > Title is the tile of the navigation item, url the url and desc is the tooltip
 navigation:
+  - title: About
+    url: /about/
   - title: Articles
     url: /articles/
     desc: Open Source Dev, Resources and Learnings
   - title: Projects
     url: /projects/
-    desc: What I do most of my time
+    desc: Lists all the projects done by me
   - title: Work
     url: /work/
     desc: Professional Dev
-  - title: About
-    url: /about/
     desc: About me
   - title: Resume
     url: /assets/Resume.pdf
@@ -67,7 +78,7 @@ include:
 exclude:
   - README.md
   - vendor
-gems:
+plugins:
   - jekyll-seo-tag
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
