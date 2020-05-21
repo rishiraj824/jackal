@@ -23,14 +23,8 @@ github_source: rishiraj824.github.io
 google_analytics: 'UA-30210543-1'
 
 # Pagination settings
-pagination:
-  
-  # Site-wide kill switch, disabled here it doesn't run at all 
-    enabled: true
-    per_page: 15                          # number of posts to show per page
-    permalink: '/articles/page/:num/'
-    sort_field: 'date'
-    sort_reverse: true
+paginate: 15                          # number of posts to show per page
+paginate_path: '/articles/page:num/'
 
 
 comments: true
@@ -78,7 +72,7 @@ include:
 exclude:
   - README.md
   - vendor
-gems:
+plugins:
   - jekyll-seo-tag
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
