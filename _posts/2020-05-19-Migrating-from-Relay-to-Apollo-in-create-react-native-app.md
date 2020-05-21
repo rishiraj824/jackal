@@ -1,5 +1,5 @@
 ---
-title: Migrating from Relay to Apollo in react native app
+title: Migrating from Relay to Apollo in create-react-native-app
 desc: Quick steps for Migrating to Apollo from a Relay app
 ---
 
