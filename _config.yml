@@ -36,7 +36,7 @@ pagination:
 comments: true
 # Discus Short Name
 disqus:
-  shortname: disqus_shortname
+  shortname: rishiraj-co
 # Navigation settings
 # Used to define the navigation menu items
 # > Title is the tile of the navigation item, url the url and desc is the tooltip
@@ -78,7 +78,7 @@ include:
 exclude:
   - README.md
   - vendor
-plugins:
+gems:
   - jekyll-seo-tag
   - jekyll-paginate-v2
 
