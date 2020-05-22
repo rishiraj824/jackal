@@ -37,7 +37,7 @@ disqus:
 navigation:
   - title: About
     url: /about/
-  - title: Articles
+  - title: Blog
     url: /articles/
     desc: Open Source Dev, Resources and Learnings
   - title: Projects
