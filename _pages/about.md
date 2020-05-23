@@ -16,7 +16,7 @@ permalink: /about/
     <img src="{{ site.baseurl }}/assets/img/me.png">
 </figure>
 {:/}
-  - Currently diving deep into Computer Science at NYU 🎓🔍
+  - Currently out of my comfort zone at NYU 🎓🔍
   - Product focused Software Engineer 💻🚀
   - Passionate about open source, ed-tech, media tech, building tools for developers.💡
   - I can talk about scaling up your Web App, Open Source Contributions, new products
