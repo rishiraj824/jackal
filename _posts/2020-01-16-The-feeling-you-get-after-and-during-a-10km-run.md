@@ -11,10 +11,10 @@ Your legs are the most easily forgiving parts of your body. Is this true? No its
 
 The pain begins right below your calf muscles and in between your shins. Its like there is a creature between those two bones and it wants to get out. Your body slows down as you react to it but your eyes don't look down as you still want the feeling after the run to be as immense as possible. 
 
-Your heart beat is the next sound after the thumping of your foot on the ground. You try to change the landing of your foot on the ground so that some muscles slow down and rest. The best way to breathe during a long run like this is perused breathing as the air goes deep into your lungs.
+Your heart beat is the only sound you hear after the thumping of your foot on the ground. You try to change the landing of your foot on the ground so that some muscles slow down and rest. The best way to breathe during a long run like this is perused breathing as the air goes deep into your lungs.
 
-And midway between your run when you realise that you're halfway there, you try to sprint a little bit because you come across a downhill. Your legs thank you at this moment because they are making use of the friction, your speed is maximum and your eyes are a little watery and your sweat drops from your forehead are just the part of this perfect scene.
+When you realise that you're halfway there, you try to accelerate a little bit because you come across a downhill. Your legs rest a little at this moment because they are make use of the friction, at this time your speed is maximum and your eyes are a little watery and your sweat drops from your forehead are just the part of this perfect scene.
 
-While you can see that you're closing up you have a crazy burst of energy from inside which shows up suddenly at the moment. It gives you the immense strength which helps you reach that end. 
+While you can see that you're closing up you have a crazy outburst of energy from inside which shows up momententarily. It gives you the immense strength which helps you reach that end. 
 
-After the run when you reach for your phone while drinking water from your sipper and trying to breathe as much as possible you get the best feeling to see your trace and the distance you covered today.
+After the run when you reach for your phone while drinking water from your sipper and trying to breathe as much as possible, you get the best feeling to see your trace and the distance you covered today.
