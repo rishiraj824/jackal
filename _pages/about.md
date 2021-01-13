@@ -8,7 +8,7 @@ permalink: /about/
 
 <div class="pretty-links">
 
-<div class="lead lead-about">About me
+<div class="lead lead-about">About me (Please reach out on <a href="mailto:@rishiraj824@gmail.com">rishiraj824@gmail.com</a> if you're hiring)
 </div>
 
 {::nomarkdown} 
