@@ -8,9 +8,9 @@ permalink: /about/
 
 <div class="pretty-links">
 
-<div class="lead lead-about">About me (Please reach out on <a href="mailto:@rishiraj824@gmail.com">rishiraj824@gmail.com</a> if you're hiring)
+<div class="lead lead-about">About me 
 </div>
-
+Please reach out to me on <a href="mailto:@rishiraj824@gmail.com">rishiraj824@gmail.com</a> if you're hiring
 {::nomarkdown} 
 <figure class="site-profile">
     <img src="{{ site.baseurl }}/assets/img/me.png">
@@ -19,7 +19,7 @@ permalink: /about/
   - Currently out of my comfort zone at NYU 🎓🔍
   - Product focused Software Engineer 💻🚀
   - Passionate about open source, ed-tech, media tech, building tools for developers.💡
-  - I can talk about scaling up your Web App, Open Source Contributions, new products
+  - I can talk about scaling up your Web Apps, Serverless Apps, Scaling Micro Services, AWS, Open Source Contributions, new products
   that will change the future 🎤🗣
   - I also write about integrating tools 🛠,
   about the dev I think might help others, recently started on [Medium](https://medium.com/@rishiraj824) too 📚
