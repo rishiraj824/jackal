@@ -10,7 +10,9 @@ permalink: /about/
 
 <div class="lead lead-about">About me 
 </div>
-Please reach out to me on <a href="mailto:@rishiraj824@gmail.com">rishiraj824@gmail.com</a> if you're hiring
+
+<h6>Please reach out to me on <a href="mailto:@rishiraj824@gmail.com">rishiraj824@gmail.com</a> if you're hiring.</h6>
+
 {::nomarkdown} 
 <figure class="site-profile">
     <img src="{{ site.baseurl }}/assets/img/me.png">
