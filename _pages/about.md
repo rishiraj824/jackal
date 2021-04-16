@@ -11,14 +11,13 @@ permalink: /about/
 <div class="lead lead-about">About me 
 </div>
 
-<h6>Please reach out to me on <a href="mailto:@rishiraj824@gmail.com">rishiraj824@gmail.com</a> if you're hiring.</h6>
-
 {::nomarkdown} 
 <figure class="site-profile">
     <img src="{{ site.baseurl }}/assets/img/me.png">
 </figure>
 {:/}
-  - Currently out of my comfort zone at NYU 🎓🔍
+  - Incoming Software Engineer at Twitch 💜💜💜
+  - Recent NYU MS Graduate 🎓🔍
   - Product focused Software Engineer 💻🚀
   - Passionate about open source, ed-tech, media tech, building tools for developers.💡
   - I can talk about scaling up your Web Apps, Serverless Apps, Scaling Micro Services, AWS, Open Source Contributions, new products
